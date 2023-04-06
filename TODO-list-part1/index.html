@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do it</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="task-input">
+            <ion-icon name="reorder-four-outline"></ion-icon>
+            <input type="text" placeholder="Add a new test">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+        </div>
+        <ul class="task-box">
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>our task asdfgs</p>
+                </label>
+                <div class="settings">
+                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    <ul class="task-menu">
+                        <li><ion-icon name="brush-outline"></ion-icon>Edit</li>
+                        <li><ion-icon name="trash-outline"></ion-icon>Delete</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <label for="2">
+                    <input type="checkbox" id="2">
+                    <p>our task asdfgs</p>
+                </label>
+                <div class="settings">
+                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+            </li>
+            <li class="task">
+                <label for="3">
+                    <input type="checkbox" id="3">
+                    <p>our task asdfgs</p>
+                </label>
+                <div class="settings">
+                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
